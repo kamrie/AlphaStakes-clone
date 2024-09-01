@@ -1,0 +1,195 @@
+    /* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navBar div a{
+    text-decoration: none;
+    color: black;
+}
+
+#navBar div a:hover{
+      color: rgb(28,107,197);  
+      border-bottom: 3px solid  rgb(28,107,197);  
+      transition: 0.3s;
+}
+
+.hey{
+    letter-spacing:22px ;
+    font-size: 22px;
+    color: yellow;
+    text-shadow: 0 0px 15px yellow, 0 0 25px yellow ;
+    animation: animator 1.5s linear infinite;
+}
+
+@keyframes animator{
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
+}
+
+
+#login-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/The\ world\ image.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+#aboutUs-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/skyscraper\ img.jpg);
+    height: 70vh;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover
+};
+
+.home-link{
+    text-decoration:none; 
+    color:white;
+}
+
+.innerlogin-section a:hover{
+     color: rgb(88, 88, 231);
+}
+
+.innerlogin-section{
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+
+}
+
+.reg-login{
+    /* width: 26%;
+    margin-left: auto;
+    margin-right:auto ; */
+    display: flex;
+    gap: 90px;
+}
+.reg-login  a{
+    color:rgb(213, 212, 212) ; 
+    text-decoration: none;
+ } 
+
+ .reg-login  a:hover{
+       color: rgb(213, 212, 212);
+        /* background-color: darkblue; */
+ }
+
+.reg-login h3{
+    background-color: rgb(28, 107, 197);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#about-section{
+    padding: 70px;
+}
+
+#about-section a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(97, 51, 248);
+    padding:10px;
+    border-radius: 5px;
+}
+
+#about-section a:hover{
+   background-color: purple;
+   transition: 1s
+};
+
+/* 
+@keyframes mymove {
+    50%{border-bottom-width: 50px;}  
+} */
+
+.littleBorder-bottom{
+    
+    /* height: 20px; */
+    /* animation: mymove 5s infinite; */
+}
+
+.the-cards:hover {
+    box-shadow: 2px 5px 6px 1px;
+    transition: 0.6s;
+    margin-top: 4px;
+}
+
+.the-cards a:hover{
+    background-color:rgb(18,169,243) ;
+    border: none;
+}
+
+#additional-paragraph{
+    /* margin-top: 50rem; */
+
+}
+
+.each-add-para{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(106, 14, 32));
+    /* position: absolute; 
+    top:45rem;
+     left: 0px; */
+    /* z-index: 1; */
+}
+
+.innerFooter{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 34px;
+}
+
+
+.footer-links a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-links:hover{
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+
+.each-faq{
+    position: relative;
+    margin: 20px 2px;
+}
+
+.ques{
+    
+}
+
+input[type=text]:focus{
+    outline: 2px solid lightskyblue;
+}
+
+textarea[type=text]:focus{
+    outline: 2px solid lightskyblue;
+   
+}
+
+
+.msg-btn{
+    padding: 10px;
+    color: white;
+    background-color: rgb(62, 62, 148);
+    border: none;
+}
+.msg-btn:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+
+}
